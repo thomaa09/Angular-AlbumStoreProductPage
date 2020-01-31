@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 import { ProductService } from './product.service';
-import { ProducTracklistingComponent } from './produc-tracklisting/produc-tracklisting.component';
 import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { ProductTracklistingComponent } from './product-tracklisting/product-tra
     AppComponent,
     ProductPageComponent,
     ProductDescriptionComponent,
-    ProducTracklistingComponent,
     ProductTracklistingComponent
   ],
   imports: [
